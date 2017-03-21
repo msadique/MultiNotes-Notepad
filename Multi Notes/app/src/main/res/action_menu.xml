@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res-auto ">
+
+    <item android:title="Do A" android:id="@+id/menuA" android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always" />
+    <item android:title="Do B" android:id="@+id/menuB"
+        android:icon="@android:drawable/ic_menu_gallery" app:showAsAction="always" />
+    <item android:title="Do C" android:id="@+id/menuC"
+        android:icon="@android:drawable/ic_menu_delete"
+
+        app:showAsAction="always" />
+
+</menu>

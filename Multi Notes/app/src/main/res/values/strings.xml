@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Multi Notes</string>
+    <string name="textview">textview</string>
+    <string name="last_update">Last Update:</string>
+    <string name="encoding">UTF-8</string>
+    <string name="notes_saved">notes_saved</string>
+    <string name="no_notes">no_notes</string>
+    <string name="file_name">Notepad.json</string>
+    <string name="saved">Notes Saved!</string>
+    <string name="these_are_my_notes">These are my notes:-</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <color name="white">#000000</color>
+</resources>

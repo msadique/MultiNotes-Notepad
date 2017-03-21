@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/aboutback"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="\u00A9 2017, Mohd Sadique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activityLabel"
+        android:textSize="30sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="216dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:text="Version 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textversion"
+        android:textSize="32sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/activityLabel"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Multi-Note"
+        android:layout_height="52dp"
+        android:id="@+id/textView"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="96dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_width="175dp"
+        android:textAlignment="gravity" />
+
+</android.support.constraint.ConstraintLayout>
